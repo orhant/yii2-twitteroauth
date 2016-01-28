@@ -1,0 +1,35 @@
+{
+    "name": "vip9008/yii2-twitteroauth",
+    "type": "yii2-extension",
+    "description": "Abraham Twitter OAuth library converted as a yii2 extension",
+    "keywords": ["yii2", "yii2-twitter", "abraham", "vip9008", "twitteroauth"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/abraham/twitteroauth/issues",
+        "source": "https://github.com/abraham/twitteroauth"
+    },
+    "authors": [
+        {
+            "name": "Abraham Williams",
+            "email": "abraham@abrah.am",
+            "homepage": "https://abrah.am",
+            "role": "Developer"
+        },
+        {
+            "name": "Hussain Almoamen",
+            "email": "ave9008@gmail.com",
+            "homepage": "https://github.com/vip9008",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vip9008\\twitteroauth\\": ""
+        }
+    }
+}
